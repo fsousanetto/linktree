@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(6,6,19);
+    color: #fff;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 3.125rem;
+}
+
+.image img {
+    width: 5rem;
+    margin-bottom: 1.562rem; 
+    border-radius: 3.125rem; 
+    border: 0.187rem solid #fff; 
+    box-shadow: 0 0 0.937rem #fff; 
+}
+
+.title {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 1rem; 
+}
+
+.subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.625rem; 
+}
+
+.social--media ul {
+    display: flex;
+    list-style: none;
+    margin: 1.25rem 0; 
+    justify-content: space-around;
+}
+
+.social--media ul img:hover {
+    background-color: #bbd1f4;
+    box-shadow: none;
+    border: 0.125rem solid #bbd1f4; 
+}
+
+.social--media img {
+    width: 3.125rem; 
+    border: 0.125rem solid #fff;  
+    border-radius: 3.125rem; 
+    box-shadow: 0 0 0.312rem #fff ; 
+    background-color: #fff;
+    margin: 0 0.625rem; 
+}
+
+.cards li {
+    background: #fff;
+    border-radius: 0.312rem; 
+    margin: 0.937rem 1.25rem; 
+    list-style: none;
+    color: rgb(70, 73, 86);
+    padding: 0.625rem; 
+}
+
+.cards li:hover {
+    background-color: #d5e1f4;
+    box-shadow: 0 0 0.312 #fff; 
+}
+
+.cards li a {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: rgb(13, 7, 53);
+}
+
+.cards-list p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.75rem; 
+    margin-top: 0.312rem; 
+}
+
+
+@media screen and (min-width: 650px){
+    :root {
+        margin: 70px 100px;
+    }
+}
+
+@media (min-width: 992px) {
+    :root {
+      margin: 50px 250px;
+    }
+  }
