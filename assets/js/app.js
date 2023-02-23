@@ -2,7 +2,7 @@
 const paragraph = `
   <p>
     <small>Copyright &copy; Netto_Dev ${new Date().getFullYear()}</small>
-  <p>
+  </p>
 `;
 
 document.getElementById('copyright').innerHTML = paragraph;
