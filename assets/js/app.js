@@ -1,7 +1,7 @@
 
 const paragraph = `
   <p>
-    <small>Copyright &copy; Netto_Dev ${new Date().getFullYear()}</small>
+    <small>Copyright &copy; Francisco Netto ${new Date().getFullYear()}</small>
   </p>
 `;
 
