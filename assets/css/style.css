@@ -37,7 +37,7 @@ a {
     --base-color-second: hsl(var(--hue) 73% 56%);
     --base-color-alt: hsl(var(--hue) 78% 16%);
     --title-color: hsl(var(--hue) 97% 36%);
-    --text-color: hsl(var(--hue) 6% 82%);
+    --text-color: hsl(var(--hue) 4% 87%);
 }
 
 html {
@@ -49,11 +49,17 @@ body {
     font: 400 1rem;
     color: var(--text-color);
     overflow-x: hidden;
-    background: url(../images/Intersect-1.png) center right, url(../images/Intersect.png) bottom left;
-    background-repeat: no-repeat;
-    background-size: 330px;
-    background-color: #050505;
+    background-color: #0c0b0b;
 }
+/* 
+.img-back {
+    display: flex;
+    position: fixed;
+    margin: 10rem auto;
+
+    filter: blur(10px);
+    z-index: -1;
+} */
 
 .container {
     max-width: 652px;
@@ -69,6 +75,7 @@ body {
 #header .image img {
     width: 21rem;
     margin-bottom: 2.5rem;
+    border-radius: 50%;
 }
 
 #header h2 {
@@ -81,6 +88,7 @@ body {
 #header header p {
     text-align: center;
     color: var(--text-color);
+    margin: .8rem 0;
 }
 
 
@@ -119,16 +127,15 @@ body {
     background: var(--base-color-alt);
 }
 
-#footer {
+footer#footer {
     display: flex;
     justify-content: center;
-    margin-top: 2.5rem;
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
     body {
         background-size: 150px;
-        height: 110vh;
+        height: 100vh;
     }
     
     .container{
@@ -166,7 +173,7 @@ body {
 @media screen and (min-width: 481px) and (max-width: 768px) {
     body {
         background-size: 200px;
-        height: 114vh;
+        height: 100vh;
     }
 
     .container {
